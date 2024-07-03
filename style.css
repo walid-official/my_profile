@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-family: 'Poppins', sans-serif;  
+    --header-color:#1E1E1E;
+    --p-color:#616161;
+    --btn-color:#007F5F;
+    --white:#ffffff;
+    --yellow:#FF8B00;
+}
+body{
+    font-family: "Albert Sans", sans-serif;
+    background-image: linear-gradient(to left, #040505, #212428);
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+p{
+    color: rgb(100, 100, 100);
+}
+.full-area{
+    
+}
+.container{
+    display: flex;
+    width: 90%;
+    margin: 50px auto;
+    
+}
+.left-area{
+    width: 100%;
+    margin: 50px;
+}
+.left-area img{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: 6px solid rgb(100, 100, 100);
+}
+.left-area h2{
+    font-size: 4rem;
+    color: #fff;
+}
+
+.left-area span{
+    color:hsla(0, 70%, 57%, 0.879)
+}
+.left-area p{
+    font-size: 19px;
+}
+.left-area button{
+    border: none;
+    background-color:  #212428;
+    color:hsla(0, 70%, 57%, 0.879);
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #040505;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.right-area{
+    width: 80%;
+}
+.right-area{}
+.right-area{}
+
+
+
+
+
+
+/* .container{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to left, #040505, #212428);
+    width: 100%;
+    padding: 120px;
+}
+.left-area{
+    
+}
+.left-area img{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: 6px solid hsla(0, 70%, 57%, 0.879);
+}
+.left-area h2{
+    font-size: 4rem;
+}
+.right-area{
+    width: 50%;
+}
+.right-area .card{
+    background-color: #212428;
+    color:#ffffff;
+    margin: 20px 20px;
+    padding: 30px;
+    border-radius: 20px;
+} */
