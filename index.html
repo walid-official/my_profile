@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/profile.png">
+    <!-- Style Css -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="animate.css">
-    <link rel="stylesheet" href="animate.min.css">
-    <title>Document</title>
+    <!-- Responsive Css -->
+     <link rel="shortcut icon" href="loading.gif">
+     <!-- Fontawsome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My-profile</title>
 </head>
 <body>
     <div class="full-area">
         <div class="container">
             <div class="left-area">
                 <img src="images/profile.png" alt="Myprofile">
-                <h2>Hi, I’m <span>walid Hasan</span></h2>
-                <h2><span id="type" class="auto-type"></span></h2>
+                <h2>Hi, I’m <span>Walid Hasan</span></h2>
+                <h2 class="mystyle"><span id="type" class="auto-type"></span></h2>
                 <p>I'm the Front-End Developer for #Company in USA, OR. I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.</p>
                 <div class="btn-area">
                     <button id="btn-1"  class="animate_animated animate__headShake">Download My CV</button>
@@ -23,20 +26,125 @@
                 </div>
             </div>
             <div class="right-area">
+                <!-- card 1 -->
                 <div class="card">
                     <h2>About Me</h2>
-                    <hr>
+                    <div class="line"></div>
                     <p>Hi I am a Front-End developer & I can build your website as you want. I can customize plugin & wordpress theme. And I have two years of experience in figma. Now I am able to design your portfolio.</p>
                     <p>I have three years of experience with HTML, CSS, JavaScript. And I can Design Your web application.</p>
+                </div>
+                <!-- card 2 -->
+                <div class="card">
+                    <h2>About My Skill</h2>
+                    <div class="line"></div>
+                    <p>PRIMARY SKILLS ON</p>
+                    <div class="primary-image1">
+                        <div class="primary-image" id="space-out">
+                            <img src="images/primary-image/icons-01-1.png" alt="">
+                        </div>
+                        <div class="primary-image">
+                            <img src="images/primary-image/icons-02-1.png" alt="">
+                        </div>
+                       <div class="primary-image">
+                            <img src="images/primary-image/icons-03-1.png" alt="">
+                       </div>
+                        <div class="primary-image">
+                            <img src="images/primary-image/express-js.png" alt="">
+                        </div>
+                        <div class="primary-image">
+                            <img src="images/primary-image/mongobd.png" alt="">
+                        </div>
+                        <div class="primary-image">
+                            <img src="images/primary-image/icons-04.png" alt="">
+                        </div>
+                    </div>
+                    <div class="primary-image2">
+                        <div class="primary-image" id="space-out">
+                            <img  src="images/primary-image/icons-06.png" alt="">
+                        </div>
+                        <div class="primary-image">
+                            <img src="images/primary-image/icons-07.png" alt="">
+                        </div>
+                        <div class="primary-image">
+                            <img src="images/primary-image/icons-08.png" alt="">
+                        </div>
+                        <div class="primary-image">
+                            <img src="images/primary-image/icons-09.png" alt="">
+                        </div>         
+                   </div>
+                   <!-- Secondary skill -->
+                   <div class="line"></div>
+                   <p>Secondary SKILLS ON</p>
+                   <div class="primary-image3">
+                        <div class="primary-image" id="space-out">
+                            <img src="images/secondary-image/icons-16.png" alt="">
+                        </div>
+                        <div class="primary-image">
+                            <img src="images/secondary-image/icons-12.png" alt="">
+                        </div>
+                         <div class="primary-image">
+                            <img src="images/secondary-image/icons-13.png" alt="">
+                         </div>
+                        <div class="primary-image">
+                            <img src="images/secondary-image/icons-14.png" alt="">
+                        </div>
+                        <div class="primary-image">
+                            <img src="images/secondary-image/icons-15.png" alt="">
+                        </div>
+                        <div class="primary-image">
+                            <img src="images/secondary-image/icons-11.png" alt="">
+                        </div>
+                     </div>
+                     <div class="primary-image4">
+                        <div class="primary-image" id="space-out">
+                            <img src="images/secondary-image/icons-16.png" alt="">
+                        </div>
+                        <div class="primary-image">
+                            <img src="images/secondary-image/icons-12.png" alt="">
+                        </div>
+                         <div class="primary-image">
+                            <img src="images/secondary-image/icons-13.png" alt="">
+                         </div>
+                        <div class="primary-image">
+                            <img src="images/secondary-image/icons-14.png" alt="">
+                        </div>
+                        <div class="primary-image">
+                            <img src="images/secondary-image/icons-15.png" alt="">
+                        </div>
+                        <div class="primary-image">
+                            <img src="images/secondary-image/icons-11.png" alt="">
+                        </div>
+                     </div>
+                </div>
+                <!--About skill Area End-->
+                <!-- Service Area -->
+                <div class="card">
+                    <h2>My Services</h2>
+                    <div class="line"></div>
+                   <ul class="skill-list">
+                        <li>Business Stratagy. <i class="fa-solid fa-arrow-right"></i></li>
+                        <li>Business Development. <i class="fa-solid fa-arrow-right"></i></li>
+                        <li>App Development. <i class="fa-solid fa-arrow-right"></i></li>
+                        <li>Mobile App Development. <i class="fa-solid fa-arrow-right"></i></li>
+                   </ul>
+                </div>
+                <!-- More Services -->
+                <div class="card">
+                    <h2>My More Services</h2>
+                    <div class="line"></div>
+                   <ul class="skill-list">
+                        <li>Provite for Design & Development  <i class="fa-solid fa-arrow-right"></i></li>
+                        <li>Network is intangible in nature  <i class="fa-solid fa-arrow-right"></i></li>
+                        <li>Team frequently in retailing <i class="fa-solid fa-arrow-right"></i></li>
+                        <li>Service to a customer.  <i class="fa-solid fa-arrow-right"></i></li>
+                   </ul>
                 </div>
             </div>
         </div>
     </div>
 
-
-
 <!-- Script Js -->
- 
+
     <script src="script.js"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
