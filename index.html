@@ -14,8 +14,8 @@
         <div class="container">
             <div class="left-area">
                 <img src="images/profile.png" alt="Myprofile">
-                <h2>Hi, I’m <span>Walid Hasan</span></h2>
-                <h2>web Developer.</h2>
+                <h2>Hi, I’m <span>walid Hasan</span></h2>
+                <h2><span id="type" class="auto-type"></span></h2>
                 <p>I'm the Front-End Developer for #Company in USA, OR. I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.</p>
                 <div class="btn-area">
                     <button id="btn-1"  class="animate_animated animate__headShake">Download My CV</button>
@@ -35,15 +35,17 @@
 
 
 
-
-
-
-
-
-
-
-
-
+<!-- Script Js -->
+ 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('.auto-type', {
+        strings: ['Web Programmer','Web Developer', 'Web Designer'],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+    });
+    </script>
 </body>
 </html>

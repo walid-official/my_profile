@@ -50,6 +50,10 @@ p{
 .left-area span{
     color:hsla(0, 70%, 57%, 0.879)
 }
+.left-area #type{
+    color: #fff;
+}
+
 .left-area p{
     font-size: 19px;
     padding: 20px 0;
@@ -69,6 +73,7 @@ p{
     margin: 1rem 0;
     cursor: pointer;
     display: block;
+    transition: all .9s;
 }
 #btn-2{
     margin-left: 10px;
@@ -85,10 +90,11 @@ p{
 .right-area .card{
     background-color: #212428;
     padding: 20px;
-    border-radius: 15px;;
+    border-radius: 15px;
+    box-shadow:  1px 1px #ffffff;
 }
 .right-area .card h2{
-    color:#ffffff;
+    color: hsla(0, 70%, 57%, 0.879);
     padding: 10px;
     font-size: 2rem;
 }
