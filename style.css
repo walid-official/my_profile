@@ -178,3 +178,92 @@ li{
     color:  #ff014f;
     transition: all .6s;
 }
+/* Testimonial Area */
+.testimonial-person{
+    display: flex;
+    margin: 30px 0;
+}
+.personal-img{
+    width: 50px;
+    height: 50px;
+}
+.personal-img img{
+    border-radius: 50%;
+}
+.testimonial-person h4{
+    margin: 0 10px;
+    font-size: 20px;
+    color: #fff;
+}
+.testimonial-person h4 span{
+    color: #ff014f;
+    font-size: 30px;
+    font-weight: 700;
+}
+#testi-mark span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#testi-mark span:hover{
+    color: #ff014f;
+    transition: all .3s;
+}
+label{
+    display: flex;
+    flex-direction: column;
+}
+.first-input-box{
+    display: flex;
+    gap: 10px;
+}
+.first-input-box label{
+    width: 50%;
+    color: #abb8c3;
+    margin: 20px 0;
+    font-weight: 800;
+    cursor: pointer;
+}
+.first-input-box input{
+    border: none;
+    padding: 20px 25px;
+    box-shadow: 1px 4px 2px -3px #181a1d inset, -1px -3px 3px -2px #181a1d inset;
+    background-color: #1c1e22;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.second-input-box label{
+    color: #abb8c3;
+    margin: 20px 0;
+    font-weight: 800;
+    cursor: pointer;
+}
+.second-input-box input{
+    padding: 20px 25px;
+    box-shadow: 1px 4px 2px -3px #181a1d inset, -1px -3px 3px -2px #181a1d inset;
+    background-color: #1c1e22;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.second-input-box input[type="message"]{
+    padding-bottom: 120px;
+}
+.second-input-box button{
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1c1e22;
+    color: #abb8c3;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 16px;
+}
+.second-input-box button:hover{
+    transform: translateY(-5%);
+    transition: all .6s;
+}
